@@ -2,6 +2,8 @@
 const cena = document.querySelector('.cena');
 const dialogo = document.querySelector('.dialogo');
 const contador = document.querySelector('.contador');
+const picunha = document.querySelector('.picunha');
+const audioElement = document.getElementById('audioElement');
 
 const pistas = [
   { x: 205, y: 245, content: "Você encontrou uma pegada!" },
@@ -16,6 +18,16 @@ const pistas = [
 ];
 
 let pistaAtual = 0;
+
+contador.addEventListener('click', (event) => {
+  picunha.style.display = 'block';
+  audioElement.play();
+});
+
+picunha.addEventListener('click', (event) => {
+  picunha.style.display = 'none';
+  audioElement.pause();
+});
 
 cena.addEventListener('click', (event) => {
   let pistaEncontrada = false;
