@@ -11,7 +11,7 @@ const pistas = [
   { x: 75, y: 245, content: "Pedregulho estranhamente danificado." },
   { x: 1000, y: 300, content: "Há um cheiro forte de sangue." },
   { x: 1218, y: 418, content: "Pegadas de um salto alto. Provavelmente alguém fugiu." },
-  { x: 1094, y: 175, content: "Trancada por dentro." },
+  { x: 1054, y: 175, content: "Trancada por dentro." },
   { x: 834, y: 124, content: "Você encontrou o cachorro. CONTINUA..." }
 ];
 
